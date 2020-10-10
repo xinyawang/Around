@@ -26,7 +26,7 @@ Tech Stacks choosen reasons<br>
 
 **2. Why choose ElasticSearch?**<br>
 * ES is an open source, distributed, RESTful search engine. As the heart of the Elastic Stack, it centrally stores our data so we can query the data quickly.
-* ES is implemented by K-D tree, which is very efficient to perform 2-dimensional search problem(e.g. given latitute and longitute, search all posts in that position within 200km)
+* ES is implemented by K-D tree, which is very efficient to perform 2-dimensional search problem(e.g. given latitude and longitute, search all posts in that position within 200km)
 * I also use ES to store structured data(post's content, lat and lon)
 
 **3. Why choose Google App Engine Flex?**<br>
