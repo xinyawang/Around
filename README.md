@@ -42,7 +42,7 @@ Tech Stacks choosen reasons<br>
 * To store unstructured data (user posted images). BigTable, BigQuery, ElasticSearch are all for structured data. GCS is well-known for its durability, scalability and availability.
 
 **6. Why use BigTable instead of MySQL or MangoDB?**<br>
-* I want to make this project scalable, MySQL do not have enough scability. MongoDB is good, but it is just software, in order to make it scalable, I need to rent vms and clusters, to build system by myself. BigTable is a sparse, distributed, persistent multidimensional sorted map. It runs on Google cloud, which is very scalable, I only need to implement my business logic, which is very convenient. 
+* I want to make this project scalable, MySQL do not have enough scalability. MongoDB is good, but it is just software, in order to make it scalable, I need to rent vms and clusters, to build system by myself. BigTable is a sparse, distributed, persistent multidimensional sorted map. It runs on Google cloud, which is very scalable, I only need to implement my business logic, which is very convenient. 
 
 **7. Why use BigTable since I already use ES to save post data?**<br>
 * I want to do offline data analysis on it using BigQuery. ES is search engine with complicated query support and better read performance but may lose data, so I save posts data on ES and Bigtable both.
